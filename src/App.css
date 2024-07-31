@@ -1,0 +1,81 @@
+body {
+  height: 90vh;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.button-space {
+  display: flex;
+  justify-content: center; 
+  gap: 20px;
+  width: 100%;
+}
+
+
+.buttonYes, .buttonNo {
+  position: absolute;
+  background-color: #FE5D9F;
+  font-size: large;
+  color: #EED7DA;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#yes {
+  margin-right: 150px;
+}
+
+#no {
+  margin-left: 150px;
+  transition: 0.5s;
+}
+
+
+.buttonYes:hover, .buttonNo:hover {
+  background-color: #F69ABD;
+  color: #656565;
+}
+
+#root {
+  background-color: #EED7DA;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.text {
+  color: #656565;
+}
+
+#mapache {
+  height: 500px;
+  width: 500px;
+}
+
+.tqmArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
